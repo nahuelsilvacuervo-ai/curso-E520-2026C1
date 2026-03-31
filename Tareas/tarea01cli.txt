@@ -1,0 +1,1070 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20260320115751
+Nombre de usuario: LAPTOP-QVA1REVJ\ene
+Usuario RunAs: LAPTOP-QVA1REVJ\ene
+Nombre de la configuración: 
+Máquina: LAPTOP-QVA1REVJ (Microsoft Windows NT 10.0.19045.0)
+Aplicación host: C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 13128
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es C:\Users\ene\OneDrive\Documentos\PowerShell_transcript.LAPTOP-QVA1REVJ.yZiLi4Ll.20260320115751.txt
+PS C:\Users\ene\OneDrive\Documentos> pwd
+
+Path
+----
+C:\Users\ene\OneDrive\Documentos
+
+
+PS C:\Users\ene\OneDrive\Documentos> cd
+PS C:\Users\ene\OneDrive\Documentos> cd C:\Users\ene\Lic. en Economia\Cs datos econ y neg
+>> ErrorTerminación(Set-Location): "No se encuentra ningún parámetro de posición que acepte el argumento 'en'."
+Set-Location : No se encuentra ningún parámetro de posición que acepte el argumento 'en'.
+En línea: 1 Carácter: 1
++ cd C:\Users\ene\Lic. en Economia\Cs datos econ y neg
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+Set-Location : No se encuentra ningún parámetro de
+posición que acepte el argumento 'en'.
+En línea: 1 Carácter: 1
++ cd C:\Users\ene\Lic. en Economia\Cs datos econ y
+neg
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~
+    + CategoryInfo          : InvalidArgument: (:)
+    [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterN
+   otFound,Microsoft.PowerShell.Commands.SetLocat
+  ionCommand
+
+PS C:\Users\ene\OneDrive\Documentos> cd "C:\Users\ene\Lic. en Economia\Cs datos econ y neg"
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg> gci
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg
+
+
+Mode                 LastWriteTime         Length N
+                                                  a
+                                                  m
+                                                  e
+----                 -------------         ------ -
+-a----         17/3/2026     19:40          17164 c
+                                                  u
+                                                  a
+                                                  d
+                                                  e
+                                                  r
+                                                  n
+                                                  o
+
+                                                  c
+                                                  l
+                                                  a
+                                                  s
+                                                  e
+                                                  s
+
+                                                  5
+                                                  2
+                                                  0
+                                                  .
+                                                  d
+                                                  o
+                                                  c
+                                                  x
+-a----         14/3/2026     19:05        3487638 E
+                                                  5
+                                                  2
+                                                  0
+                                                  -
+                                                  2
+                                                  0
+                                                  2
+                                                  6
+                                                  C
+                                                  1
+                                                  -
+                                                  C
+                                                  l
+                                                  a
+                                                  s
+                                                  e
+                                                  s
+                                                  -
+                                                  0
+                                                  0
+                                                  .
+                                                  p
+                                                  d
+                                                  f
+-a----         17/3/2026     11:21        2597084 E
+                                                  5
+                                                  2
+                                                  0
+                                                  -
+                                                  2
+                                                  0
+                                                  2
+                                                  6
+                                                  C
+                                                  1
+                                                  -
+                                                  C
+                                                  l
+                                                  a
+                                                  s
+                                                  e
+                                                  s
+                                                  -
+                                                  0
+                                                  1
+                                                  -
+                                                  0
+                                                  3
+                                                  .
+                                                  p
+                                                  d
+                                                  f
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg> cd ../..
+PS C:\Users\ene> ls ..
+
+
+    Directorio: C:\Users
+
+
+Mode                 LastWriteTime         Length N
+                                                  a
+                                                  m
+                                                  e
+----                 -------------         ------ -
+d-----         17/3/2026     17:33                e
+                                                  n
+                                                  e
+d-r---        25/12/2020     18:39                P
+                                                  u
+                                                  b
+                                                  l
+                                                  i
+                                                  c
+
+
+PS C:\Users\ene> ls C:\Users\ene\Lic. en Economia\Cs datos econ y neg
+>> ErrorTerminación(Get-ChildItem): "No se encuentra ningún parámetro de posición que acepte el argumento 'Economia\Cs'."
+Get-ChildItem : No se encuentra ningún parámetro de posición que acepte el argumento 'Economia\Cs'.
+En línea: 1 Carácter: 1
++ ls C:\Users\ene\Lic. en Economia\Cs datos econ y neg
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : No se encuentra ningún parámetro
+de posición que acepte el argumento 'Economia\Cs'.
+En línea: 1 Carácter: 1
++ ls C:\Users\ene\Lic. en Economia\Cs datos econ y
+neg
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~
+    + CategoryInfo          : InvalidArgument: (:)
+    [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterN
+   otFound,Microsoft.PowerShell.Commands.GetChild
+  ItemCommand
+
+PS C:\Users\ene> ls "C:\Users\ene\Lic. en Economia\Cs datos econ y neg"
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg
+
+
+Mode                 LastWriteTime         Length N
+                                                  a
+                                                  m
+                                                  e
+----                 -------------         ------ -
+-a----         17/3/2026     19:40          17164 c
+                                                  u
+                                                  a
+                                                  d
+                                                  e
+                                                  r
+                                                  n
+                                                  o
+
+                                                  c
+                                                  l
+                                                  a
+                                                  s
+                                                  e
+                                                  s
+
+                                                  5
+                                                  2
+                                                  0
+                                                  .
+                                                  d
+                                                  o
+                                                  c
+                                                  x
+-a----         14/3/2026     19:05        3487638 E
+                                                  5
+                                                  2
+                                                  0
+                                                  -
+                                                  2
+                                                  0
+                                                  2
+                                                  6
+                                                  C
+                                                  1
+                                                  -
+                                                  C
+                                                  l
+                                                  a
+                                                  s
+                                                  e
+                                                  s
+                                                  -
+                                                  0
+                                                  0
+                                                  .
+                                                  p
+                                                  d
+                                                  f
+-a----         17/3/2026     11:21        2597084 E
+                                                  5
+                                                  2
+                                                  0
+                                                  -
+                                                  2
+                                                  0
+                                                  2
+                                                  6
+                                                  C
+                                                  1
+                                                  -
+                                                  C
+                                                  l
+                                                  a
+                                                  s
+                                                  e
+                                                  s
+                                                  -
+                                                  0
+                                                  1
+                                                  -
+                                                  0
+                                                  3
+                                                  .
+                                                  p
+                                                  d
+                                                  f
+
+
+PS C:\Users\ene> whoami
+laptop-qva1revj\ene
+PS C:\Users\ene> cd ~
+PS C:\Users\ene> pwd
+
+Path
+----
+C:\Users\ene
+
+
+PS C:\Users\ene> ls "C:\Users\ene\Lic. en Economia\Cs datos econ y neg"
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg
+
+
+Mode                 LastWriteTime         Length N
+                                                  a
+                                                  m
+                                                  e
+----                 -------------         ------ -
+-a----         17/3/2026     19:40          17164 c
+                                                  u
+                                                  a
+                                                  d
+                                                  e
+                                                  r
+                                                  n
+                                                  o
+
+                                                  c
+                                                  l
+                                                  a
+                                                  s
+                                                  e
+                                                  s
+
+                                                  5
+                                                  2
+                                                  0
+                                                  .
+                                                  d
+                                                  o
+                                                  c
+                                                  x
+-a----         14/3/2026     19:05        3487638 E
+                                                  5
+                                                  2
+                                                  0
+                                                  -
+                                                  2
+                                                  0
+                                                  2
+                                                  6
+                                                  C
+                                                  1
+                                                  -
+                                                  C
+                                                  l
+                                                  a
+                                                  s
+                                                  e
+                                                  s
+                                                  -
+                                                  0
+                                                  0
+                                                  .
+                                                  p
+                                                  d
+                                                  f
+-a----         17/3/2026     11:21        2597084 E
+                                                  5
+                                                  2
+                                                  0
+                                                  -
+                                                  2
+                                                  0
+                                                  2
+                                                  6
+                                                  C
+                                                  1
+                                                  -
+                                                  C
+                                                  l
+                                                  a
+                                                  s
+                                                  e
+                                                  s
+                                                  -
+                                                  0
+                                                  1
+                                                  -
+                                                  0
+                                                  3
+                                                  .
+                                                  p
+                                                  d
+                                                  f
+
+
+PS C:\Users\ene> mkdir prueba
+mkdir : Ya existe un elemento con el nombre especificado: C:\Users\ene\prueba.
+En línea: 1 Carácter: 1
++ mkdir prueba
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\ene\prueba:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Ya existe un elemento con el nombre
+especificado: C:\Users\ene\prueba.
+En línea: 1 Carácter: 1
++ mkdir prueba
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\
+   Users\ene\prueba:String) [New-Item], IOExcepti
+  on
+    + FullyQualifiedErrorId : DirectoryExist,Micro
+   soft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\ene> ls
+
+
+    Directorio: C:\Users\ene
+
+
+Mode                 LastWriteTime         Length N
+                                                  a
+                                                  m
+                                                  e
+----                 -------------         ------ -
+d-----          3/7/2022     11:00                .
+                                                  m
+                                                  s
+                                                  -
+                                                  a
+                                                  d
+d-r---        25/12/2020     14:18                3
+                                                  D
+
+                                                  O
+                                                  b
+                                                  j
+                                                  e
+                                                  c
+                                                  t
+                                                  s
+d-r---        25/12/2020     14:18                C
+                                                  o
+                                                  n
+                                                  t
+                                                  a
+                                                  c
+                                                  t
+                                                  s
+d-----         17/3/2026     18:44                d
+                                                  i
+                                                  v
+                                                  e
+                                                  r
+                                                  s
+                                                  i
+                                                  o
+                                                  n
+d-----         28/6/2020     21:01                D
+                                                  o
+                                                  c
+                                                  u
+                                                  m
+                                                  e
+                                                  n
+                                                  t
+                                                  s
+d-r---         20/3/2026     11:15                D
+                                                  o
+                                                  w
+                                                  n
+                                                  l
+                                                  o
+                                                  a
+                                                  d
+                                                  s
+d-----         11/7/2019     00:23                E
+                                                  v
+                                                  e
+                                                  r
+                                                  n
+                                                  o
+                                                  t
+                                                  e
+d-r---        25/12/2020     14:18                F
+                                                  a
+                                                  v
+                                                  o
+                                                  r
+                                                  i
+                                                  t
+                                                  e
+                                                  s
+da----         14/3/2026     19:06                L
+                                                  i
+                                                  c
+                                                  .
+
+                                                  e
+                                                  n
+
+                                                  E
+                                                  c
+                                                  o
+                                                  n
+                                                  o
+                                                  m
+                                                  i
+                                                  a
+d-r---        25/12/2020     14:18                L
+                                                  i
+                                                  n
+                                                  k
+                                                  s
+d-r---         10/6/2023     01:52                M
+                                                  u
+                                                  s
+                                                  i
+                                                  c
+dar--l         20/3/2026     11:11                O
+                                                  n
+                                                  e
+                                                  D
+                                                  r
+                                                  i
+                                                  v
+                                                  e
+dar--l         20/3/2026     11:10                O
+                                                  n
+                                                  e
+                                                  D
+                                                  r
+                                                  i
+                                                  v
+                                                  e
+
+                                                  -
+
+                                                  E
+                                                  c
+                                                  o
+                                                  n
+                                                  ó
+                                                  m
+                                                  i
+                                                  c
+                                                  a
+                                                  s
+
+                                                  -
+
+                                                  U
+                                                  B
+                                                  A
+d-----         28/6/2020     21:01                P
+                                                  i
+                                                  c
+                                                  t
+                                                  u
+                                                  r
+                                                  e
+                                                  s
+d-----         17/3/2026     12:48                p
+                                                  r
+                                                  u
+                                                  e
+                                                  b
+                                                  a
+d-r---        25/12/2020     14:18                S
+                                                  a
+                                                  v
+                                                  e
+                                                  d
+
+                                                  G
+                                                  a
+                                                  m
+                                                  e
+                                                  s
+d-r---        19/11/2024     07:34                S
+                                                  e
+                                                  a
+                                                  r
+                                                  c
+                                                  h
+                                                  e
+                                                  s
+d-r---        25/12/2020     14:18                V
+                                                  i
+                                                  d
+                                                  e
+                                                  o
+                                                  s
+-a----         15/6/2021     10:27              0 S
+                                                  t
+                                                  i
+                                                  _
+                                                  T
+                                                  r
+                                                  a
+                                                  c
+                                                  e
+                                                  .
+                                                  l
+                                                  o
+                                                  g
+
+
+PS C:\Users\ene> ls C:\Users\ene\Lic. en Economia\Cs datos econ y neg
+>> ErrorTerminación(Get-ChildItem): "No se encuentra ningún parámetro de posición que acepte el argumento 'Economia\Cs'."
+Get-ChildItem : No se encuentra ningún parámetro de posición que acepte el argumento 'Economia\Cs'.
+En línea: 1 Carácter: 1
++ ls C:\Users\ene\Lic. en Economia\Cs datos econ y neg
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : No se encuentra ningún parámetro
+de posición que acepte el argumento 'Economia\Cs'.
+En línea: 1 Carácter: 1
++ ls C:\Users\ene\Lic. en Economia\Cs datos econ
+y neg
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo          : InvalidArgument: (:
+   ) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameter
+   NotFound,Microsoft.PowerShell.Commands.GetChi
+  ldItemCommand
+
+PS C:\Users\ene> ls "C:\Users\ene\Lic. en Economia\Cs datos econ y neg"
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg
+
+
+Mode                 LastWriteTime         Length
+----                 -------------         ------
+-a----         17/3/2026     19:40          17164
+-a----         14/3/2026     19:05        3487638
+-a----         17/3/2026     11:21        2597084
+
+
+PS C:\Users\ene> ls "C:\Users\ene\Lic. en Economia\Cs datos econ y neg"
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg
+
+
+Mode                 LastWriteTime         Length
+----                 -------------         ------
+-a----         17/3/2026     19:40          17164
+-a----         14/3/2026     19:05        3487638
+-a----         17/3/2026     11:21        2597084
+
+
+PS C:\Users\ene> sl "C:\Users\ene\Lic. en Economia\Cs datos econ y neg"
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg>  mkdir prueba
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg
+
+
+Mode                 LastWriteTime         Length
+----                 -------------         ------
+d-----         20/3/2026     12:30
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg> mdir dir1 dir2 dir3
+mdir : El término 'mdir' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mdir dir1 dir2 dir3
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (mdir:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+mdir : El término 'mdir' no se reconoce como
+nombre de un cmdlet, función, archivo de script o
+programa ejecutable. Compruebe si escribió
+correctamente el nombre o, si incluyó una ruta de
+acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mdir dir1 dir2 dir3
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (md
+   ir:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundExce
+   ption
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg> mkdir dir1 dir2 dir3
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mkdir dir1 dir2 dir3
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de
+posición que acepte el argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mkdir dir1 dir2 dir3
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:
+   ) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameter
+   NotFound,mkdir
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg> mkdir dir1, dir2, dir3
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg
+
+
+Mode                 LastWriteTime         Length
+----                 -------------         ------
+d-----         20/3/2026     12:31
+d-----         20/3/2026     12:31
+d-----         20/3/2026     12:31
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg> ls
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg
+
+
+Mode                 LastWriteTime         Length
+----                 -------------         ------
+d-----         20/3/2026     12:31
+d-----         20/3/2026     12:31
+d-----         20/3/2026     12:31
+d-----         20/3/2026     12:30
+-a----         17/3/2026     19:40          17164
+-a----         14/3/2026     19:05        3487638
+-a----         17/3/2026     11:21        2597084
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg> mkdir prueba/dir1/bienvenida
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba\dir1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:33                bienvenida
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg> [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg> gci
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg
+
+
+Mode                 LastWriteTime         Length
+----                 -------------         ------
+d-----         20/3/2026     12:31
+d-----         20/3/2026     12:31
+d-----         20/3/2026     12:31
+d-----         20/3/2026     12:33
+-a----         17/3/2026     19:40          17164
+-a----         14/3/2026     19:05        3487638
+-a----         17/3/2026     11:21        2597084
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg> sl prueba
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> tree
+Listado de rutas de carpetas para el volumen Acer
+El número de serie del volumen es 3CFD-F37D
+C:.
+└───dir1
+    └───bienvenida
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> gci
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg\prueba
+
+
+Mode                 LastWriteTime         Length
+----                 -------------         ------
+d-----         20/3/2026     12:33
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> mkdir -p dir4/dir5/dir6
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg\prueba\dir4\dir5
+
+
+Mode                 LastWriteTime         Length
+----                 -------------         ------
+d-----         20/3/2026     12:38
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+chcp 65001
+
+Página de códigos activa: 65001
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> gci
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:33                dir1
+d-----         20/3/2026     12:38                dir4
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> mk another folder
+mk : El término 'mk' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mk another folder
++ ~~
+    + CategoryInfo          : ObjectNotFound: (mk:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+mk : El término 'mk' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta
+e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ mk another folder
++ ~~
+    + CategoryInfo          : ObjectNotFound: (mk:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> mkdir another folder
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'folder'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder'.
+En línea: 1 Carácter: 1
++ mkdir another folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder'.
+En línea: 1 Carácter: 1
++ mkdir another folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> mkdir another, folder
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:43                another
+d-----         20/3/2026     12:43                folder
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> tree
+Listado de rutas de carpetas para el volumen Acer
+El número de serie del volumen es 3CFD-F37D
+C:.
+├───another
+├───dir1
+│   └───bienvenida
+├───dir4
+│   └───dir5
+│       └───dir6
+└───folder
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> rm
+>> ErrorTerminación(): "Se ha detenido la canalización."
+>> ErrorTerminación(): "Se ha detenido la canalización."
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> rm dir3
+rm : No se encuentra la ruta de acceso 'C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba\dir3' porque no existe.
+En línea: 1 Carácter: 1
++ rm dir3
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\ene\Li...neg\prueba\dir3:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+rm : No se encuentra la ruta de acceso 'C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba\dir3' porque no
+existe.
+En línea: 1 Carácter: 1
++ rm dir3
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\ene\Li...neg\prueba\dir3:String) [Remove-Item], ItemNotFoundE
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> ls
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:43                another
+d-----         20/3/2026     12:33                dir1
+d-----         20/3/2026     12:38                dir4
+d-----         20/3/2026     12:43                folder
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> rm dir4
+Confirmar
+El elemento situado en C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba\dir4 tiene elementos secundarios y no se especificó el parámetro Recurse. Si continúa, se quitarán todos los secundarios junto con el elemento. ¿Está seguro de que desea continuar?
+&Sí  Sí a t&odo  &No  No a &todo  S&uspender
+N
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> ls /
+
+
+    Directorio: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         11/4/2025     23:42                inet
+                                                  pub
+d-----         7/12/2019     06:14                Perf
+                                                  Logs
+d-r---         19/3/2026     09:57                Prog
+                                                  ram
+                                                  File
+                                                  s
+d-r---         11/8/2025     08:36                Prog
+                                                  ram
+                                                  File
+                                                  s (x
+                                                  86)
+d-r---        25/12/2020     13:48                User
+                                                  s
+d-----        10/11/2025     07:20                Wind
+                                                  ows
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> ls / > archivos-en.raiz.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="inetpub"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="PerfLogs"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Program Files"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Program Files (x86)"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Users"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Windows"
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> gci
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs
+    datos econ y neg\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:43                anot
+                                                  her
+d-----         20/3/2026     12:33                dir1
+d-----         20/3/2026     12:38                dir4
+d-----         20/3/2026     12:43                fold
+                                                  er
+-a----         20/3/2026     12:59           2196 arch
+                                                  ivos
+                                                  -en.
+                                                  raiz
+                                                  .txt
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> gci
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs datos econ y
+    neg\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:43                another
+d-----         20/3/2026     12:33                dir1
+d-----         20/3/2026     12:38                dir4
+d-----         20/3/2026     12:43                folder
+-a----         20/3/2026     12:59           2196 archivos-en.raiz.t
+                                                  xt
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> cat archivo_-en-raiz.txt
+cat : No se encuentra la ruta de acceso 'C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba\archivo_-en-raiz.txt' 
+porque no existe.
+En línea: 1 Carácter: 1
++ cat archivo_-en-raiz.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\ene\Li...vo_-en-raiz.txt:String) [Get-Content], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+cat : No se encuentra la ruta de acceso 'C:\Users\ene\Lic. en
+Economia\Cs datos econ y neg\prueba\archivo_-en-raiz.txt' porque no
+existe.
+En línea: 1 Carácter: 1
++ cat archivo_-en-raiz.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\ene\Li...vo
+   _-en-raiz.txt:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Com
+   mands.GetContentCommand
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> cat archivo-en-raiz.txt
+cat : No se encuentra la ruta de acceso 'C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba\archivo-en-raiz.txt' 
+porque no existe.
+En línea: 1 Carácter: 1
++ cat archivo-en-raiz.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\ene\Li...ivo-en-raiz.txt:String) [Get-Content], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+cat : No se encuentra la ruta de acceso 'C:\Users\ene\Lic. en
+Economia\Cs datos econ y neg\prueba\archivo-en-raiz.txt' porque no
+existe.
+En línea: 1 Carácter: 1
++ cat archivo-en-raiz.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\ene\Li...iv
+   o-en-raiz.txt:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Com
+   mands.GetContentCommand
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> cat archivos-en-raiz.txt
+cat : No se encuentra la ruta de acceso 'C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba\archivos-en-raiz.txt' 
+porque no existe.
+En línea: 1 Carácter: 1
++ cat archivos-en-raiz.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\ene\Li...vos-en-raiz.txt:String) [Get-Content], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+cat : No se encuentra la ruta de acceso 'C:\Users\ene\Lic. en
+Economia\Cs datos econ y neg\prueba\archivos-en-raiz.txt' porque no
+existe.
+En línea: 1 Carácter: 1
++ cat archivos-en-raiz.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\ene\Li...vo
+   s-en-raiz.txt:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Com
+   mands.GetContentCommand
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> cat archivos-en.raiz.txt
+
+
+    Directorio: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         11/4/2025     23:42                inet
+                                                  pub
+d-----         7/12/2019     06:14                Perf
+                                                  Logs
+d-r---         19/3/2026     09:57                Prog
+                                                  ram
+                                                  File
+                                                  s
+d-r---         11/8/2025     08:36                Prog
+                                                  ram
+                                                  File
+                                                  s (x
+                                                  86)
+d-r---        25/12/2020     13:48                User
+                                                  s
+d-----        10/11/2025     07:20                Wind
+                                                  ows
+
+
+PS C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba> gci
+
+
+    Directorio: C:\Users\ene\Lic. en Economia\Cs datos econ y neg\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:43                another
+d-----         20/3/2026     12:33                dir1
+d-----         20/3/2026     12:38                dir4
+d-----         20/3/2026     12:43                folder
+-a----         20/3/2026     12:59           2196 archivos-en.raiz.txt
+
+
